@@ -20,7 +20,7 @@ public class ImageGetActivity extends AppCompatActivity {
     StethoSample app;
     Button bt_image;
     ImageView iv_image;
-    String url = "http://www.geekalerts.com/u/Mr-Robot-F-Society-Vinyl-Car-Sticker-1.jpg";
+    String url = "https://via.placeholder.com/600/61a65";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

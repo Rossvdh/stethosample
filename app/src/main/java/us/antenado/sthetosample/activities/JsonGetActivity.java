@@ -26,6 +26,13 @@ public class JsonGetActivity extends AppCompatActivity {
     String url = "http://jsonplaceholder.typicode.com/posts/1";
     StethoSample app;
 
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
